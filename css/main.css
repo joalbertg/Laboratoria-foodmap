@@ -1,0 +1,49 @@
+/* 540 960 */
+
+/* @media screen and (min-width: 540px) {
+  body {
+    background-color: #000;
+  }
+} */
+
+body > .splash {
+  background-image: url('../assets/images/splash.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  background-color: #2c2c2c;
+  color: #c3742f;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  margin: 5px 0px;
+}
+
+#search {
+  width: 100%;
+  padding: 2px;
+  margin: 10px 0px;
+}
+
+.container-search img, input {
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #e97b1c;
+  border-radius: 0;
+  border: none;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-footer {
+  border-top: none;
+}

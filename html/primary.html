@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../vendors/bootstrap-4.0.0/css/bootstrap.css">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-center">foodmap</h1>
+        <figure>
+          <img class="img-fluid" src="../assets/images/restaurants.png" alt="google maps restaurantes">
+        </figure>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center">comida cerca de ti</h2>
+        <input type="text" name="search" id="search" placeholder="filtrar restaurantes">
+      </div>
+    </div>
+    <div class="container-search">
+      <div class="row">
+        <div class="col-6">
+          <figure>
+            <img class="img-fluid" src="http://lorempixel.com/400/200/" alt="">
+          </figure>
+        </div>
+        <div class="col-6">
+          <figure>
+            <img class="img-fluid" src="http://lorempixel.com/400/200/" alt="">
+          </figure>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <figure>
+            <img class="img-fluid" src="http://lorempixel.com/400/200/" alt="">
+          </figure>
+        </div>
+        <div class="col-4">
+          <figure>
+            <img class="img-fluid" src="http://lorempixel.com/400/200/" alt="">
+          </figure>
+        </div>
+        <div class="col-4">
+          <figure>
+            <img class="img-fluid" src="http://lorempixel.com/400/200/" alt="">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Button trigger modal -->
+  <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+    Launch demo modal
+  </button> -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <figure>
+                  <img class="img-fluid" src="../assets/images/restaurants.png" alt="google maps restaurantes">
+                </figure>
+                <h3 class="text-center">Lorem ipsum dolor sit amet.</h3>
+              </div>
+            </div>
+            <div class="detail-js">
+              <div class="row">
+                <div class="col-6">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum dignissimos debitis harum illo, perspiciatis doloribus iste
+                  praesentium obcaecati possimus consectetur! Accusantium aliquam similique commodi quo maxime, explicabo
+                  aspernatur minus et?
+                </div>
+                <div class="col-6">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum dignissimos debitis harum illo, perspiciatis doloribus iste
+                  praesentium obcaecati possimus consectetur! Accusantium aliquam similique commodi quo maxime, explicabo
+                  aspernatur minus et?
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer justify-content-center">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">pedir ahora</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../vendors/js/jquery-3.2.1.js"></script>
+  <script src="../vendors/bootstrap-4.0.0/js/bootstrap.js"></script>
+  <script src="../js/data.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+
+</html>
