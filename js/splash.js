@@ -3,7 +3,7 @@ function begin() {
 }
 
 function redirect() {
-  $(location).attr('href', 'html/primary.html')
+  $(location).attr('href', 'html/primary.html');
 }
 
 $(document).ready(begin);
